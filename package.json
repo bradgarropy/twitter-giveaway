@@ -22,7 +22,7 @@
         "url": "https://github.com/bradgarropy/node-starter"
     },
     "scripts": {
-        "start": "node index.js https://twitter.com/bradgarropy/status/1331482232121389058"
+        "start": "node src/index.js"
     },
     "dependencies": {
         "dotenv": "^8.2.0",

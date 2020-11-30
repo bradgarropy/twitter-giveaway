@@ -6,6 +6,7 @@ const getRetweeters = require("./retweeters")
 const execute = async () => {
     // arguments
     const url = new URL(process.argv[2])
+
     const screenName = url.pathname.split("/")[1]
     const tweetId = url.pathname.split("/")[3]
 
