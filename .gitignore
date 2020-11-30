@@ -4,5 +4,8 @@
 # dependencies
 node_modules
 
+# screenshots
+*.png
+
 # secrets
 .env*
